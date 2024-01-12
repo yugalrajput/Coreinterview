@@ -17,7 +17,7 @@ public class OddEven {
 
             System.out.println(i + " = odd ");
 
-            return true;
+            return false;
 
         }
         return false;
