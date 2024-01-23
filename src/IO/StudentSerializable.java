@@ -3,6 +3,7 @@ package IO;
 import java.io.Serializable;
 
 public class StudentSerializable implements Serializable {
+   // transient int id;
     int id;
     String name;
 

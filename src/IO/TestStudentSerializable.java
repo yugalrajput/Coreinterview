@@ -15,6 +15,7 @@ public class TestStudentSerializable {
         //Deserialize....
         ObjectInputStream i = new ObjectInputStream(new FileInputStream("D://faltu//StudentSerili.txt"));
         s = (StudentSerializable) i.readObject();
+        System.out.println(s.getId());
         System.out.println(s.getName());
 
 
