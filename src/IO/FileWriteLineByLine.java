@@ -6,8 +6,8 @@ import java.io.IOException;
 
 public class FileWriteLineByLine {
     public static void main(String[] args) throws IOException {
-        FileWriter fw = new FileWriter("D://faltu//filewriter.txt", true);
-        BufferedWriter bw = new BufferedWriter(fw);
+        // FileWriter fw = new FileWriter("D://faltu//filewriter.txt", true);
+        BufferedWriter bw = new BufferedWriter(new FileWriter("D://faltu//filewriter.txt", true));
 
         char[] charArry = {'h', 'i'};
 
@@ -19,7 +19,7 @@ public class FileWriteLineByLine {
 
 
         bw.close();
-        fw.close();
+        // fw.close();
 
 
     }
