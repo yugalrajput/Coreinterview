@@ -3,8 +3,8 @@ package IO;
 import java.io.Serializable;
 
 public class StudentSerializable implements Serializable {
-   // transient int id;
-    int id;
+    transient int id;
+   // int id;
     String name;
 
     public StudentSerializable(int id, String name) {
