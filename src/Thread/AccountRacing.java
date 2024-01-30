@@ -8,7 +8,7 @@ public class AccountRacing extends Thread {
     }
 
     public void run() {
-        for (int i = 0; i <= 2; i++) {
+        for (int i = 1; i <= 2; i++) {
             a.deposit(getName(), 1000);
         }
 
