@@ -14,8 +14,8 @@ public class TestThread extends Thread {
     }
 
     public static void main(String[] args) {
-        Thread t1 = new TestThread("YUGAL");
-        Thread t2 = new TestThread("RAJPUT");
+        TestThread t1 = new TestThread("YUGAL");
+        TestThread t2 = new TestThread("RAJPUT");
 
         t1.start();
         t2.start();
