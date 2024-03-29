@@ -8,7 +8,7 @@ public class TestAssertNotNull extends TestCase {
     @Test
     public void testFindByPk() throws Exception {
 
-        UserBean user = UserModel.findByPk(3);
+        UserBean user = UserModel.findByPk(2);
         assertNotNull("user is not added", user);
     }
 

@@ -8,9 +8,11 @@ public class TestAssertNull extends TestCase {
     public void testFindByPk() throws Exception {
 
         UserBean user = UserModel.findByPk(2);
-       // assertNull(user + "user not found");
-       // assertNotNull(user + "user found");
+        // assertNull(user + "user not found");
+        // assertNotNull(user + "user found");
         assertTrue(user != null);
-        assertFalse(user == null);
+        System.out.println("user h");
+       // assertFalse(user == null);
+       // System.out.println("user nhi h");
     }
 }

@@ -14,7 +14,8 @@ public class TestLog {
         log.fatal("This is fatal message");
 
         int i = 10;
-        try {           int j = i / 0;
+        try {
+        	int j = i / 0;
         } catch (Exception e) {
             log.error(e + "This is error message");
         }
