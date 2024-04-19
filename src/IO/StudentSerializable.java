@@ -3,8 +3,12 @@ package IO;
 import java.io.Serializable;
 
 public class StudentSerializable implements Serializable {
+
+    //es ka use ho rha hai to id 0 ho jayegiii
     transient int id;
-   // int id;
+
+    //or es ka use kroge to id 1 ho jayegii
+    // int id;
     String name;
 
     public StudentSerializable(int id, String name) {

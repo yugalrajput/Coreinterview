@@ -6,8 +6,10 @@ import java.io.ObjectInput;
 import java.io.ObjectOutput;
 
 public class StudentExternalizable implements Externalizable {
+
+    //yha p koi fraq nhi padega ab vo transient ho ya int ho
     transient int id;
-   // int id;
+    // int id;
     String name;
 
     public StudentExternalizable() {
