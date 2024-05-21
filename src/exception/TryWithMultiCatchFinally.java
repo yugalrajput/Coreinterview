@@ -7,8 +7,9 @@ public class TryWithMultiCatchFinally {
         try {
 
             name.length();
-            name.charAt(6);
+            name.charAt(4);
 
+            //System.exit(0);
 
         } catch (NullPointerException e) {
 

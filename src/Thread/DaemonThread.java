@@ -1,7 +1,7 @@
 package Thread;
 
 public class DaemonThread extends Thread {
-    public void run() {
+   /* public void run() {
         while (true) {
             try {
                 Thread.sleep(500);
@@ -12,7 +12,7 @@ public class DaemonThread extends Thread {
         }
 
 
-    }
+    }*/
 
     public static void main(String[] args) {
         DaemonThread d = new DaemonThread();

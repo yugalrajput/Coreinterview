@@ -15,7 +15,7 @@ public class Account {
     // sorting order m amount lana ho to
     // public synchronized void deposit kr do
     //method synchronized
-    public void deposit(String msg, double amt) {
+    public synchronized void deposit(String msg, double amt) {
         //block synchronized
         // synchronized (this) {
         double bal = getBalance() + amt;

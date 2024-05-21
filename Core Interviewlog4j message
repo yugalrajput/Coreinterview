@@ -1,0 +1,6 @@
+2024-02-23 00:01:16 DEBUG TestLog:10 - This is debug message
+2024-02-23 00:01:16 INFO  TestLog:11 - This is info message
+2024-02-23 00:01:16 WARN  TestLog:12 - This is warn message
+2024-02-23 00:01:16 ERROR TestLog:13 - This is error message
+2024-02-23 00:01:16 FATAL TestLog:14 - This is fatal message
+2024-02-23 00:01:16 ERROR TestLog:20 - java.lang.ArithmeticException: / by zeroThis is error message
