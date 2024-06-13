@@ -14,8 +14,8 @@ public class CRUDOperation {
         Statement s = con.createStatement();
 
         //insert
-        //int i = s.executeUpdate("insert into student values(4,'aman','rajput','gwalior','aman@gmail.com')");
-        //System.out.println(i + " record inserted");
+        int i = s.executeUpdate("insert into student values(4,'aman','rajput','gwalior','aman@gmail.com')");
+        System.out.println(i + " record inserted");
 
         //update
         // int i = s.executeUpdate("update student set lname='kumar' where id=3");
@@ -26,10 +26,10 @@ public class CRUDOperation {
         // System.out.println(i + " record deleted");
 
         //search
-        ResultSet rs = s.executeQuery("select * from student where id=1");
-        while (rs.next()) {
-            System.out.println(rs.getInt(1) + " " + rs.getString(2));
-        }
+      //  ResultSet rs = s.executeQuery("select * from student where id=1");
+      //  while (rs.next()) {
+       //     System.out.println(rs.getInt(1) + " " + rs.getString(2));
+      //  }
 
     }
 }

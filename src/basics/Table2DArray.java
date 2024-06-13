@@ -3,7 +3,7 @@ package basics;
 public class Table2DArray {
 
 	public static void main(String[] args) {
-		int[][] t = new int[10][10];
+		int[][] t = new int[90][100];
 
 		for (int i = 0; i < t.length; i++) {
 
