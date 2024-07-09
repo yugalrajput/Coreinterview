@@ -1,5 +1,7 @@
 package practice;
 
+//Q2. “ab12pq34” Find sum of digits in this string using java 8 Streams ?
+
 public class FindSumOfDigits {
 
     //using java8 stream

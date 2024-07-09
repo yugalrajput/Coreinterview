@@ -6,6 +6,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+//Q1. Write code to sort the array in descending order ?
+
+
 public class SortArraysInDescOrdr {
     public static void main(String[] args) {
 
